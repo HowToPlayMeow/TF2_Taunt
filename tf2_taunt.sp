@@ -159,6 +159,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "30845", "The Jumping Jack [Engineer]");
 			AddMenuItem(menu, "31160", "Texas Truckin [Engineer]");
 			AddMenuItem(menu, "31286", "Texas Twirl 'Em [Engineer]");
+			AddMenuItem(menu, "31520", "Texan Trickshot [Engineer]");
 		}
 		case TFClass_Heavy:
 		{
@@ -171,6 +172,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31320", "Russian Rubdown [Heavy]");
 			AddMenuItem(menu, "31352", "The Road Rager [Heavy]");
 			AddMenuItem(menu, "31465", "Crushing Defeat [Heavy]");
+			AddMenuItem(menu, "31519", "Bear Hug [Heavy]");
 		}
 	}
 
@@ -199,6 +201,8 @@ public Action:ShowMenu(client)
 	AddMenuItem(menu, "31441", "Unleashed Rage");
 	AddMenuItem(menu, "31467", "Commending Clap");
 	AddMenuItem(menu, "31492", "Peace!");
+	AddMenuItem(menu, "31518", "Final Score");
+	AddMenuItem(menu, "31521", "Flying Colors");
 	
 	DisplayMenu(menu, client, 20);
 }
