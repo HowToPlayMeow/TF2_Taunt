@@ -80,6 +80,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31354", "The Killer Signature [Scout]");
 			AddMenuItem(menu, "31414", "Foul Play [Scout]");
 			AddMenuItem(menu, "31466", "Peace Out [Scout]");
+			AddMenuItem(menu, "31546", "Healthcare Hog [Scout]");
 		}
 		case TFClass_Sniper:
 		{
@@ -125,6 +126,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31236", "Doctor's Defibrillators [Medic]");
 			AddMenuItem(menu, "31349", "The Head Doctor [Medic]");
 			AddMenuItem(menu, "31382", "Borrowed Bones [Medic]");
+			AddMenuItem(menu, "31545", "Heartbreaker [Medic]");
 		}	
 		case TFClass_Pyro:
 		{
@@ -173,6 +175,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31352", "The Road Rager [Heavy]");
 			AddMenuItem(menu, "31465", "Crushing Defeat [Heavy]");
 			AddMenuItem(menu, "31519", "Bear Hug [Heavy]");
+			AddMenuItem(menu, "31547", "Ring King [Heavy]");
 		}
 	}
 
