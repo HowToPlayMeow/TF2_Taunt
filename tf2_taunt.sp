@@ -4,7 +4,7 @@
 #include <tf2items>
 #include <tf2_stocks>
 
-#define PLUGIN_VERSION "1.2"
+#define PLUGIN_VERSION "1.3"
 
 public Plugin:myinfo =
 {
@@ -81,6 +81,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31414", "Foul Play [Scout]");
 			AddMenuItem(menu, "31466", "Peace Out [Scout]");
 			AddMenuItem(menu, "31546", "Healthcare Hog [Scout]");
+			AddMenuItem(menu, "31578", "Chairholder [Scout]");
 		}
 		case TFClass_Sniper:
 		{
@@ -115,6 +116,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31292", "Shanty Shipmate [Demoman]");
 			AddMenuItem(menu, "31380", "Roar O'War [Demoman]");
 			AddMenuItem(menu, "31493", "Fore-Head Slice [Demoman]");
+			AddMenuItem(menu, "31576", "Dead Mann's Drink [Demoman]");
 		}
 		case TFClass_Medic:
 		{
@@ -206,6 +208,7 @@ public Action:ShowMenu(client)
 	AddMenuItem(menu, "31492", "Peace!");
 	AddMenuItem(menu, "31518", "Final Score");
 	AddMenuItem(menu, "31521", "Flying Colors");
+	AddMenuItem(menu, "31577", "Critical Fail");
 	
 	DisplayMenu(menu, client, 20);
 }
