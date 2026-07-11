@@ -103,6 +103,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31347", "Star-Spangled Strategy [Soldier]");
 			AddMenuItem(menu, "31381", "Neck Snap [Soldier]");
 			AddMenuItem(menu, "31438", "Can It! [Soldier]");
+			AddMenuItem(menu, "31603", "Buffoon's Bivouac [Soldier]");
 		}
 		case TFClass_DemoMan:
 		{
@@ -141,6 +142,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31239", "The Hot Wheeler [Pyro]");
 			AddMenuItem(menu, "31322", "Roasty Toasty [Pyro]");
 			AddMenuItem(menu, "31439", "Cremator's Condolences [Pyro]");
+			AddMenuItem(menu, "31605", "Friendly Fire [Pyro]");
 		}
 		case TFClass_Spy:
 		{
@@ -154,6 +156,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31289", "Crypt Creeper [Spy]");
 			AddMenuItem(menu, "31468", "The Punchline [Spy]");
 			AddMenuItem(menu, "31491", "Curtain Call [Spy]");
+			AddMenuItem(menu, "31604", "Faux-calization [Spy]");
 		}
 		case TFClass_Engineer:
 		{
@@ -178,6 +181,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31465", "Crushing Defeat [Heavy]");
 			AddMenuItem(menu, "31519", "Bear Hug [Heavy]");
 			AddMenuItem(menu, "31547", "Ring King [Heavy]");
+			AddMenuItem(menu, "31602", "Circuit Breaker [Heavy]");
 		}
 	}
 
