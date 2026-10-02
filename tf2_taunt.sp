@@ -82,6 +82,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31466", "Peace Out [Scout]");
 			AddMenuItem(menu, "31546", "Healthcare Hog [Scout]");
 			AddMenuItem(menu, "31578", "Chairholder [Scout]");
+			AddMenuItem(menu, "31632", "Showrunner's Spirit [Scout]");
 		}
 		case TFClass_Sniper:
 		{
@@ -104,6 +105,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31381", "Neck Snap [Soldier]");
 			AddMenuItem(menu, "31438", "Can It! [Soldier]");
 			AddMenuItem(menu, "31603", "Buffoon's Bivouac [Soldier]");
+			AddMenuItem(menu, "31631", "One-Eyed Punt! [Soldier]");
 		}
 		case TFClass_DemoMan:
 		{
@@ -118,6 +120,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31380", "Roar O'War [Demoman]");
 			AddMenuItem(menu, "31493", "Fore-Head Slice [Demoman]");
 			AddMenuItem(menu, "31576", "Dead Mann's Drink [Demoman]");
+			AddMenuItem(menu, "31633", "Barrel Roll [Demoman]");
 		}
 		case TFClass_Medic:
 		{
@@ -130,6 +133,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31349", "The Head Doctor [Medic]");
 			AddMenuItem(menu, "31382", "Borrowed Bones [Medic]");
 			AddMenuItem(menu, "31545", "Heartbreaker [Medic]");
+			AddMenuItem(menu, "31630", "Hippocratic Hypocrite [Medic]");
 		}	
 		case TFClass_Pyro:
 		{
@@ -143,6 +147,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31322", "Roasty Toasty [Pyro]");
 			AddMenuItem(menu, "31439", "Cremator's Condolences [Pyro]");
 			AddMenuItem(menu, "31605", "Friendly Fire [Pyro]");
+			AddMenuItem(menu, "31634", "Sear You Later [Pyro]");
 		}
 		case TFClass_Spy:
 		{
